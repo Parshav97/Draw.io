@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2023-04-28T07:04:37.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="GG36OlzwLssHL4rGPqU0" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-28T07:24:36.287Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="VQJ563EbP8soPrQBl6S3" version="21.2.3" type="github">
   <diagram name="Page-1" id="uhw3SVo32QYTMnOoCjT0">
-    <mxGraphModel dx="1500" dy="1930" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1167" dy="1746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="L1pfK_9B9d2hfRfXAD-e-55" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 31px;&quot;&gt;Users&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="118" width="490" height="348" as="geometry">
+        <mxCell id="L1pfK_9B9d2hfRfXAD-e-55" value="&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;Users&lt;/font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="118" width="490" height="360" as="geometry">
             <mxRectangle x="910" y="580" width="460" height="390" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="L1pfK_9B9d2hfRfXAD-e-56" value="+ id : String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ name : String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- username : String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- password : String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ followers : TreeSet&amp;lt;Users&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ followings : TreeSet&amp;lt;Users&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ posts : Posts []&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="L1pfK_9B9d2hfRfXAD-e-55">
+        <mxCell id="L1pfK_9B9d2hfRfXAD-e-56" value="+ id : String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ name : String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- username : String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;- password : String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ followers : TreeSet&amp;lt;Users&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ followings : TreeSet&amp;lt;Users&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ posts : Stack&amp;lt;Posts&amp;gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="L1pfK_9B9d2hfRfXAD-e-55">
           <mxGeometry y="40" width="490" height="110" as="geometry" />
         </mxCell>
         <mxCell id="L1pfK_9B9d2hfRfXAD-e-57" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="L1pfK_9B9d2hfRfXAD-e-55">
           <mxGeometry y="150" width="490" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="L1pfK_9B9d2hfRfXAD-e-58" value="+ post (in content : String) : Posts&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showPosts () : Posts[]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showFollowers() : Users[]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showFollowings() : Users[]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ follow (in userId&amp;nbsp;: String) : void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ reply (in postId : String, in userId : String) : void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ upvote&amp;nbsp; (in postId : String, in userId : String) : void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ downvote (in postId : String, in userId : String) : void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showNewsFeed () : Posts[]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ commentOnComment (in commentId : String, in postId : String, in userId : String) : void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ upvoteComment&amp;nbsp; (in commentId : String,&amp;nbsp;in postId : String, in userId : String) : void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ downvoteComment (in commentId : String,&amp;nbsp;in postId : String, in userId : String) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="L1pfK_9B9d2hfRfXAD-e-55">
-          <mxGeometry y="158" width="490" height="190" as="geometry" />
+        <mxCell id="L1pfK_9B9d2hfRfXAD-e-58" value="+ post (in content : String) : Posts&lt;br&gt;+ logout() : void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showPosts () : Posts[]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showFollowers() : Users[]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showFollowings() : Users[]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ follow (in userId&amp;nbsp;: String) : void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ reply (in postId : String, in userId : String) : void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ upvote&amp;nbsp; (in postId : String, in userId : String) : void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ downvote (in postId : String, in userId : String) : void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ showNewsFeed () : Posts[]&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ commentOnComment (in commentId : String, in postId : String, in userId : String) : void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ upvoteComment&amp;nbsp; (in commentId : String,&amp;nbsp;in postId : String, in userId : String) : void&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ downvoteComment (in commentId : String,&amp;nbsp;in postId : String, in userId : String) : void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="L1pfK_9B9d2hfRfXAD-e-55">
+          <mxGeometry y="158" width="490" height="202" as="geometry" />
         </mxCell>
         <mxCell id="L1pfK_9B9d2hfRfXAD-e-60" value="Posts" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="890" y="146" width="200" height="292" as="geometry" />
@@ -80,28 +80,19 @@
         <mxCell id="L1pfK_9B9d2hfRfXAD-e-79" value="CONTAINS" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" vertex="1" parent="1">
           <mxGeometry x="1010" y="537" width="80" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="L1pfK_9B9d2hfRfXAD-e-80" value="Solution" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="-60" width="540" height="94" as="geometry" />
-        </mxCell>
-        <mxCell id="L1pfK_9B9d2hfRfXAD-e-82" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="L1pfK_9B9d2hfRfXAD-e-80">
-          <mxGeometry y="26" width="540" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="L1pfK_9B9d2hfRfXAD-e-83" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ signup (in name: String, in username : String, in password : String) : Users&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;+ login (in username : String, in password : String) : String(Token)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="L1pfK_9B9d2hfRfXAD-e-80">
-          <mxGeometry y="34" width="540" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="L1pfK_9B9d2hfRfXAD-e-84" value="The Main Window of the Application" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
           <mxGeometry x="960" y="-140" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="L1pfK_9B9d2hfRfXAD-e-85" value="Note" style="resizeWidth=1;part=1;strokeColor=none;fillColor=none;align=left;spacingLeft=5;" vertex="1" parent="L1pfK_9B9d2hfRfXAD-e-84">
           <mxGeometry width="280" height="25" relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="L1pfK_9B9d2hfRfXAD-e-89" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.104;exitY=1.057;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.706;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L1pfK_9B9d2hfRfXAD-e-83" target="L1pfK_9B9d2hfRfXAD-e-55">
+        <mxCell id="L1pfK_9B9d2hfRfXAD-e-89" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.171;exitY=1.044;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="L1pfK_9B9d2hfRfXAD-e-94">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="470" y="190" as="sourcePoint" />
-            <mxPoint x="630" y="190" as="targetPoint" />
+            <mxPoint x="405.75999999999976" y="86.26999999999998" as="sourcePoint" />
+            <mxPoint x="481" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="L1pfK_9B9d2hfRfXAD-e-90" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.28;exitY=1.052;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="L1pfK_9B9d2hfRfXAD-e-84">
+        <mxCell id="L1pfK_9B9d2hfRfXAD-e-90" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.28;exitY=1.052;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.718;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="L1pfK_9B9d2hfRfXAD-e-84" target="L1pfK_9B9d2hfRfXAD-e-94">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="470" y="190" as="sourcePoint" />
             <mxPoint x="880" as="targetPoint" />
@@ -109,6 +100,18 @@
               <mxPoint x="1038" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="L1pfK_9B9d2hfRfXAD-e-91" value="Solution" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-160" width="240" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="L1pfK_9B9d2hfRfXAD-e-92" value="+ currentToken : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="L1pfK_9B9d2hfRfXAD-e-91">
+          <mxGeometry y="26" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="L1pfK_9B9d2hfRfXAD-e-93" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="L1pfK_9B9d2hfRfXAD-e-91">
+          <mxGeometry y="70" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="L1pfK_9B9d2hfRfXAD-e-94" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ signup (in name: String, in username : String, in password : String) : Users&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;+ login (in username : String, in password : String) : String(Token)&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="L1pfK_9B9d2hfRfXAD-e-91">
+          <mxGeometry y="78" width="240" height="112" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
